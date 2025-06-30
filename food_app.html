@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="food.css" />
+    <title>FOOD APP</title>
+  </head>
+  <body>
+    <header>Food Cook Planner</header>
+    <main id="main">
+      <!--div class="alert"><strong>✅ Successful </strong>Food is updated!</div--->
+      <div class="input-container">
+        <input
+          type="text"
+          placeholder="I like to eat..."
+          class="input-food"
+          id="input-food"
+        />
+        <button id="input-btn" class="input-btn">Save</button>
+      </div>
+      <div>
+        <ul id="food-container" class="food-container" ">
+          <li id="food-item" class="food-item">sambar</li>
+          <li class="food-item">kara kulambu</li>
+          <li class="food-item">vaththal kulambu</li>
+        </ul>
+      </div>
+    </main>
+
+    <script src="food.js"></script>
+  </body>
+</html>
